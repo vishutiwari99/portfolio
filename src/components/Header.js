@@ -16,7 +16,7 @@ const Header = () => {
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                         </svg>
 
-                                        <span className="mx-3 font-medium text-sm md:text-base">Vaibhav Tiwari</span>
+                                        <span className="mx-3 font-medium text-sm md:text-xl lg:text-2xl">Vaibhav Tiwari</span>
                                     </a>
                                 </div>
                                 <div onClick={() => setToggle(!toggle)} className="block lg:hidden pr-0">
@@ -31,7 +31,14 @@ const Header = () => {
                                     </button>
                                 </div>
                                 <ul className="hidden lg:flex z-40">
-                                    <li className="mx-2">Home</li>
+                                    <li className="mx-2 cursor-pointer transition duration-200 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">Home</li>
+                                    <li className="mx-2 cursor-pointer transition duration-200 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110" >
+                                        <a href="#skill">
+                                            skill
+
+                                        </a>
+                                    </li>
+                                    <li className="mx-2 cursor-pointer transition duration-200 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">Home</li>
                                     <li className="mx-2">About</li>
                                     <li className="mx-2">Projects</li>
                                     <li className="mx-2">Projects</li>
